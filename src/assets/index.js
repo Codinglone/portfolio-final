@@ -29,8 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import idalog from "./idalog.jpeg"
+import iitech from "./logo-color.svg"
 
 export {
+  iitech,
+  idalog,
   logo,
   backend,
   creator,

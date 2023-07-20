@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  idalog,
+  logo,
+  iitech
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +119,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend Developer",
+    company_name: "Ida Technology",
+    icon: idalog,
+    iconBg: "#fff",
+    date: "Sep 2022 - Dec 2022",
+    points: [
+      "Developing and maintaining web applications backend APIs using Javascript and Python",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing REST APIs using Javascript frameworks such as express and fastify.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full-stack Software Engineer",
+    company_name: "Ida Technology",
+    icon: idalog,
+    iconBg: "#fff",
+    date: "Feb 2023 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing REST APIs using Fastify, Postgres and TypeORM"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Professional Career Break",
+    company_name: "Personal",
+    icon: logo,
+    iconBg: "black",
+    date: "May 2023 - June 2023",
+    points: [
+      "Learning new technologies",
+      "Focusing on academics and personal life",
+      "Explore different fields in tech eco-system",
+      "Contributing to open source projects",
+    ],
+  },
+  {
+    title: "CTO & Software Engineer",
+    company_name: "IITECH",
+    icon: iitech,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researching on different technologies to improve the scalability of the existing softwares.",
     ],
   },
 ];
@@ -172,27 +177,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Fabrice proved me wrong.",
+    name: "Aime N.",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Rent-it",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Fabrice does.",
+    name: "Eric J.",
     designation: "COO",
-    company: "DEF Corp",
+    company: "CMDS",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Fabrice optimized our website, our traffic increased by 5%. We can't thank him enough for what he did to us!",
+    name: "Adam Khan",
+    designation: "CEO",
+    company: "MAK Technologies",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
