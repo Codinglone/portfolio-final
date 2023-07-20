@@ -162,7 +162,7 @@ const experiences = [
     title: "CTO & Software Engineer",
     company_name: "IITECH",
     icon: iitech,
-    iconBg: "#E6DEDD",
+    iconBg: "#2979ff",
     date: "June 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
